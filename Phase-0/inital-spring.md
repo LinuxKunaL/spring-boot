@@ -15,7 +15,7 @@ Main goals:
 
 ## How to start ?
 
-- select the spring package
+- select the spring package from [mvnrepository](https://mvnrepository.com/search?q=spring)
 - type : core, context, bean, web, and more
 - add this in your `pom.xml`
 - Dependency Code :
