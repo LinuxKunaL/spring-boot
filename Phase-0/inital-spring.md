@@ -47,7 +47,7 @@ Main goals:
 ## Basic syntax 
 - Define the Main method path : `dev.kunallokhande.Main`
 - Create Applicaion Context
-    ```xml
+    ```java
     AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("dev.kunallokhande");
     ```
 - Run Application 
