@@ -1,16 +1,6 @@
-# Spring Basics
+# Spring Core Terms
 
-## What is Spring?
-
-Spring is a Java framework used to build enterprise applications.
-
-Main goals:
-- Reduce boilerplate code
-- Manage objects automatically
-- Support Dependency Injection (DI)
-- Build web applications easily
-
----
+> Intro to Spring and how to start a project lives in [01-what-is-spring.md](01-what-is-spring.md).
 
 ## Bean
 

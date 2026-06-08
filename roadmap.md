@@ -15,14 +15,22 @@ A phased, task-based path. Each phase ends with a **build task** — don't move 
 
 ## Phase 1 — Spring Core (the part most people skip and regret)
 The whole framework rests on this. Learn it *before* Spring Boot hides it from you.
-- [ ] Understand Inversion of Control (IoC) and Dependency Injection (DI) conceptually
-- [ ] The `ApplicationContext` / Bean container — what it is and its lifecycle
-- [ ] Declare beans 3 ways: `@Component` scanning, `@Bean` in `@Configuration`, and (briefly) XML so you recognize legacy code
+- [✅] Understand Inversion of Control (IoC) and Dependency Injection (DI) conceptually
+
+- [✅] The `ApplicationContext` / Bean container — what it is and its lifecycle
+
+- [✅] Declare beans 3 ways: `@Component` scanning, `@Bean` in `@Configuration`, and (briefly) XML so you recognize legacy code
+
 - [ ] Constructor vs setter vs field injection — and why constructor injection is preferred
+
 - [ ] `@Autowired`, `@Qualifier`, `@Primary`, `@Value`
+
 - [ ] Bean scopes: singleton vs prototype (and web scopes later)
+
 - [ ] Bean lifecycle hooks: `@PostConstruct`, `@PreDestroy`
+
 - [ ] `@Profile` and environment-specific beans
+
 - [ ] **Build task:** A plain Spring (no Boot) console app wiring 3–4 beans together via constructor injection
 
 ---
