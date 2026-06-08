@@ -8,8 +8,16 @@ public class Main {
         
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext("dev.kunallokhande");
         
+        // 1) ————— Send mail via normal direct `bean call`.
         EmailService emailService = applicationContext.getBean(EmailService.class);
-
         emailService.send();
+
+        // 2) ————— Send mail via `Setter Injection`
+        UserService userService = applicationContext.getBean(UserService.class);
+        userService.emailService.send();
+
+        // 3) ————— Send mail via `Field Injection`
+        Notification notification = applicationContext.getBean(Notification.class);
+        notification.notifiyUser();
     }
 }

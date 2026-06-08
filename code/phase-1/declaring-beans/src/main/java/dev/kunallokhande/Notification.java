@@ -3,7 +3,6 @@ package dev.kunallokhande;
 import org.springframework.stereotype.Component;
 
 // this method is component scanning.
-
 @Component
 public class Notification {
     

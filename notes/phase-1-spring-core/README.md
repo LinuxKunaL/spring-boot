@@ -9,11 +9,16 @@ The whole framework rests on this — IoC, DI, the container, and beans. Learn i
 2. [02-dependency-injection.md](02-dependency-injection.md)
 3. [03-application-context.md](03-application-context.md)
 4. [04-declaring-beans.md](04-declaring-beans.md)
+5. [05-constructor-setter-fieldinjection.md](05-constructor-setter-fieldinjection.md)
 
 ## Example code
 
 - [`code/phase-1/java-spring`](../../code/phase-1/java-spring)
+   - Constructor vs Setter va Field Injection at [Line 11](../../code/phase-1/java-spring/src/main/java/dev/kunallokhande/Main.java#L11).
 - [`code/phase-1/declaring-beans`](../../code/phase-1/declaring-beans)
+   - Using bean at [Line 6](../../code/phase-1/declaring-beans/src/main/java/dev/kunallokhande/Notification.java#L6).
+   - Configuration method at [File](../../code/phase-1/declaring-beans/src/main/java/dev/kunallokhande/ConfigMethod.java).
+   - XML Configuration at [XML File](../../code/phase-1/declaring-beans/src/main/resources/beams.xml).
 
 ## Checklist
 

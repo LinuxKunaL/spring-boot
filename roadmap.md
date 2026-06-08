@@ -21,7 +21,7 @@ The whole framework rests on this. Learn it *before* Spring Boot hides it from y
 
 - [✅] Declare beans 3 ways: `@Component` scanning, `@Bean` in `@Configuration`, and (briefly) XML so you recognize legacy code
 
-- [ ] Constructor vs setter vs field injection — and why constructor injection is preferred
+- [✅] Constructor vs setter vs field injection — and why constructor injection is preferred
 
 - [ ] `@Autowired`, `@Qualifier`, `@Primary`, `@Value`
 
